@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
+  background-image: linear-gradient(bottom, rgb(214,244,86) 4%, rgb(129,209,209) 52%);
+  background-image: -o-linear-gradient(bottom, rgb(214,244,86) 4%, rgb(129,209,209) 52%);
+  background-image: -moz-linear-gradient(bottom, rgb(214,244,86) 4%, rgb(129,209,209) 52%);
+  background-image: -webkit-linear-gradient(bottom, rgb(214,244,86) 4%, rgb(129,209,209) 52%);
+  background-image: -ms-linear-gradient(bottom, rgb(214,244,86) 4%, rgb(129,209,209) 52%);
+  
+  background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.04, rgb(214,244,86)),
+	color-stop(0.52, rgb(129,209,209))
+);
+}
+
+a {
+  color: #00B7FF;
+}
+
+#container {
+  border: 1px solid black;
+  padding: 20px;
+  width: half;
+}
+
+#footer {
+  text-align: center;
+}
+
+#mainForm {
+  text-align: center;
+}
+
+#map_canvas {
+  width: 500px;
+  height: 500px;  
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}

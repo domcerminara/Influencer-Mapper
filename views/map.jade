@@ -1,0 +1,23 @@
+script
+  $(window).load(function(){
+    getKlout("#{title}");
+    });  
+div#container
+  h1= title + "'s Influencer Map"
+  div#error
+  div#map_canvas
+  div#others  
+div#footer
+  p
+    |Created by
+    a(href="http://twitter.com/domcerminara", target='_blank')
+      |Dominic Cerminara
+    |using
+    a(href="http://http://developer.klout.com/page", target='_blank')
+      |Klout
+    |, 
+    a(href="http://code.google.com/apis/maps/documentation/javascript/", target='_blank')
+      |Google Maps
+    |, and 
+    a(href="https://dev.twitter.com/", target='_blank')
+      |Twitter

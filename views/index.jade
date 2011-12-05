@@ -1,0 +1,24 @@
+div#container
+  h1= 'Influence Mapper'
+  |Please enter your Twitter handle to see where the people that influence you are!
+  form#mainForm(action="map")
+    input#user(type='text', name='handle')
+    br
+    input#submit(type='submit', value='Submit')
+div#footer
+  p
+    |Created by
+    a(href="http://twitter.com/domcerminara", target='_blank')
+      |Dominic Cerminara
+    |using
+    a(href="http://http://developer.klout.com/page", target='_blank')
+      |Klout
+    |, 
+    a(href="http://code.google.com/apis/maps/documentation/javascript/", target='_blank')
+      |Google Maps
+    |, and 
+    a(href="https://dev.twitter.com/", target='_blank')
+      |Twitter
+    
+    
+  
